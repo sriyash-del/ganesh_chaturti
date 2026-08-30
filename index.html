@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganesh Chaturthi Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Great+Vibes&family=Noto+Sans+Devanagari:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="intro video-intro" id="intro" aria-label="Cinematic Ganesh opening video">
+    <video class="intro-video" id="introVideo" src="assets/ganesh-opening.mp4" autoplay muted playsinline></video>
+    <div class="video-vignette"></div>
+    <div class="cinema-bars"></div>
+    <div class="video-title">
+      <p>Ganpati Bappa Morya</p>
+      <span>Opening the invitation with divine blessings</span>
+    </div>
+  </div>
+
+  <div class="aura"></div>
+  <div class="petals" id="petals"></div>
+  <div class="side-lights left" id="leftLights"></div>
+  <div class="side-lights right" id="rightLights"></div>
+
+  <main>
+    <section class="hero">
+      <div class="mandala" aria-hidden="true">
+        <svg viewBox="0 0 500 500">
+          <defs>
+            <linearGradient id="goldGrad" x1="0" x2="1">
+              <stop offset="0" stop-color="#b87900" />
+              <stop offset=".5" stop-color="#ffd76a" />
+              <stop offset="1" stop-color="#f28b22" />
+            </linearGradient>
+          </defs>
+          <g fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity=".95">
+            <circle cx="250" cy="250" r="232"/><circle cx="250" cy="250" r="195"/><circle cx="250" cy="250" r="154"/><circle cx="250" cy="250" r="111"/><circle cx="250" cy="250" r="68"/>
+            <path id="petal" d="M250 18 C312 112 312 188 250 250 C188 188 188 112 250 18Z"/>
+            <use href="#petal" transform="rotate(30 250 250)"/><use href="#petal" transform="rotate(60 250 250)"/><use href="#petal" transform="rotate(90 250 250)"/><use href="#petal" transform="rotate(120 250 250)"/><use href="#petal" transform="rotate(150 250 250)"/><use href="#petal" transform="rotate(180 250 250)"/><use href="#petal" transform="rotate(210 250 250)"/><use href="#petal" transform="rotate(240 250 250)"/><use href="#petal" transform="rotate(270 250 250)"/><use href="#petal" transform="rotate(300 250 250)"/><use href="#petal" transform="rotate(330 250 250)"/>
+          </g>
+        </svg>
+      </div>
+
+      <p class="om">ॐ</p>
+      <div class="idol-wrap" id="ganeshIdol">
+        <div class="temple-arch"></div>
+        <div class="halo"></div>
+        <img class="idol" src="assets/ganesh.png" alt="Lord Ganesha idol" />
+      </div>
+
+      <div class="puja-zone" aria-label="Interactive puja thali">
+        <button class="puja-thali" id="pujaBtn" type="button" aria-label="Perform Ganesh puja aarti">
+          <span class="thali-plate"></span>
+          <span class="diya diya-one"><i></i></span>
+          <span class="diya diya-two"><i></i></span>
+          <span class="vilakku"><i></i><i></i><i></i><i></i><i></i></span>
+          <span class="agarbatti agarbatti-one"><i></i></span>
+          <span class="agarbatti agarbatti-two"><i></i></span>
+          <span class="agarbatti agarbatti-three"><i></i></span>
+          <span class="kumkum"></span>
+          <span class="flowers">🌸</span>
+          <span class="modak">🟡</span>
+        </button>
+        <p class="puja-hint">Click the diya thali to perform aarti</p>
+      </div>
+
+      <p class="eyebrow">With blessings, love and devotion</p>
+      <h1><span>Ganesh Chaturthi</span><strong>Invitation</strong></h1>
+      <p class="hero-note">Join us for an evening of aarti, prasad, music, family, joy and divine blessings.</p>
+      <a class="scroll-btn" href="#invite">Open Invitation</a>
+    </section>
+
+    <section class="mantra-band">
+      <div class="ornament">✦ ✦ ✦</div>
+      <p class="sanskrit">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</p>
+      <p class="translation">May Lord Ganesha remove every obstacle and fill your path with wisdom, prosperity and happiness.</p>
+    </section>
+
+    <section id="invite" class="invite-section reveal">
+      <div class="invite-card">
+        <div class="card-glow"></div>
+
+        <div class="card-toran" aria-hidden="true">
+          <svg viewBox="0 0 1000 120" preserveAspectRatio="none">
+            <path d="M0 0 Q50 34 100 0 Q150 34 200 0 Q250 34 300 0 Q350 34 400 0 Q450 34 500 0 Q550 34 600 0 Q650 34 700 0 Q750 34 800 0 Q850 34 900 0 Q950 34 1000 0" fill="none" stroke="#ffd166" stroke-width="4.5" stroke-dasharray="6,4"/>
+            <circle cx="50" cy="18" r="8" fill="#f27022"/>
+            <circle cx="150" cy="18" r="8" fill="#f27022"/>
+            <circle cx="250" cy="18" r="8" fill="#f27022"/>
+            <circle cx="350" cy="18" r="8" fill="#f27022"/>
+            <circle cx="450" cy="18" r="8" fill="#f27022"/>
+            <circle cx="550" cy="18" r="8" fill="#f27022"/>
+            <circle cx="650" cy="18" r="8" fill="#f27022"/>
+            <circle cx="750" cy="18" r="8" fill="#f27022"/>
+            <circle cx="850" cy="18" r="8" fill="#f27022"/>
+            <circle cx="950" cy="18" r="8" fill="#f27022"/>
+            <circle cx="100" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="200" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="300" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="400" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="500" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="600" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="700" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="800" cy="24" r="10" fill="#ffd166"/>
+            <circle cx="900" cy="24" r="10" fill="#ffd166"/>
+            <path d="M100 24 Q100 72 95 90 Q100 72 105 90 Z" fill="#2d6a4f"/>
+            <path d="M300 24 Q300 72 295 90 Q300 72 305 90 Z" fill="#2d6a4f"/>
+            <path d="M500 24 Q500 72 495 90 Q500 72 505 90 Z" fill="#2d6a4f"/>
+            <path d="M700 24 Q700 72 695 90 Q700 72 705 90 Z" fill="#2d6a4f"/>
+            <path d="M900 24 Q900 72 895 90 Q900 72 905 90 Z" fill="#2d6a4f"/>
+          </svg>
+        </div>
+
+        <span class="corner tl" aria-hidden="true"></span>
+        <span class="corner tr" aria-hidden="true"></span>
+        <span class="corner bl" aria-hidden="true"></span>
+        <span class="corner br" aria-hidden="true"></span>
+
+        <div class="card-top">❉ श्री गणेशाय नमः ❉</div>
+        <h2>You Are Cordially Invited</h2>
+        <p class="sub">to celebrate the auspicious occasion of</p>
+        <h3 class="gold-text-glow">Ganesh Chaturthi</h3>
+
+        <div class="details-clean">
+          <p class="invite-text" id="typeDate" data-text="📅 Date: Monday, September 14th, 2026"></p>
+          <p class="invite-text" id="typeVenue" data-text="📍 Venue: Our Home — A celebration of devotion, joy & togetherness"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <p class="section-kicker reveal">festival gallery</p>
+      <h2 class="section-title reveal">Divine Moments</h2>
+      <div class="gallery">
+        <figure class="reveal">
+          <img src="https://imgs.search.brave.com/MxAMQ19oipJR-UI8s4xOVt0YY4mTkEZwOBdMWt_9SMo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE2LzIyLzAyLzAw/LzM2MF9GXzE2MjIw/MjAwMDhfemhGU3c5/QUl2S0VDU09WV1V1/b2RPeGtmZ1dNN1dq/RFouanBn" alt="Vighnaharta Ganesh">
+          <figcaption>Vighnaharta Ganesh</figcaption>
+        </figure>
+        <figure class="reveal">
+          <img src="https://imgs.search.brave.com/SzOM7ObDmdsseumOeRrfLy-2CtETuALTziva5ZaEbkk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zMy5h/cC1zb3V0aC0xLmFt/YXpvbmF3cy5jb20v/aW1hZ2VzLndvb2Rl/bnN0cmVldC5kZS9p/bWFnZS9kYXRhL2Js/b2ctaW1hZ2VzLzIy/LWF1Zy0yMDI0L0dh/bmVzaCUyMERlY29y/YXRpb24lMjB3aXRo/JTIwZmxvd2Vycy5q/cGc" alt="Sacred Ganesh decorations with flowers">
+          <figcaption>Sacred Decorations</figcaption>
+        </figure>
+        <figure class="reveal fireworks-card">
+          <video class="fireworks-video" src="https://www.pexels.com/download/video/17735952/" autoplay muted loop playsinline aria-label="Festive fireworks celebration"></video>
+          <figcaption>Festive Fireworks</figcaption>
+        </figure>
+        <figure class="reveal sweets-card">
+          <video class="gallery-video" src="https://www.pexels.com/download/video/8848958/" autoplay muted loop playsinline aria-label="Prasad and sweets video"></video>
+          <figcaption>Prasad & Sweets</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="program-section">
+      <p class="section-kicker reveal">celebration plan</p>
+      <h2 class="section-title reveal">An Evening Filled With Blessings</h2>
+      <div class="program-grid">
+        <article class="program reveal"><span>🪔</span><h3>Aarti & Puja</h3><p>Traditional prayers and offerings to welcome Bappa with devotion.</p></article>
+        <article class="program reveal"><span>🎶</span><h3>Bhajans</h3><p>Devotional music, chants and togetherness in a peaceful atmosphere.</p></article>
+        <article class="program reveal"><span>🍛</span><h3>Prasad & Dinner</h3><p>Modaks, sweets and a delicious vegetarian festive meal.</p></article>
+        <article class="program reveal"><span>🎊</span><h3>Celebration</h3><p>Family moments, laughter, photos and cultural joy for everyone.</p></article>
+      </div>
+    </section>
+
+    <section class="rsvp-section reveal">
+      <div class="rsvp-card">
+        <h2>Confirm Your Presence</h2>
+        <p>Your presence will make our celebration more joyful and memorable.</p>
+        <button id="rsvpBtn">🪷 Confirm Attendance 🪷</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer-mantra">श्री गणेशाय नमः</p>
+    <p>Ganpati Bappa Morya! Mangal Murti Morya!</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="x" id="closeModal">×</button>
+      <div class="modal-icon">🙏</div>
+      <h2>Thank You!</h2>
+      <p>Your presence is confirmed. We look forward to celebrating Ganesh Chaturthi with you.</p>
+      <strong>Ganpati Bappa Morya!</strong>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
